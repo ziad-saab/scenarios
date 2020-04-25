@@ -1,1 +1,0 @@
-# MongoDB Exercise 1
