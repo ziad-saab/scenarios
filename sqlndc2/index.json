@@ -9,7 +9,7 @@
       "courseData": "exercise.sh"
     },
     "assets": {
-      "host01": [
+      "client": [
         {
           "file": "events.json.gz",
           "target": "~/"
