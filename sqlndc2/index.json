@@ -6,20 +6,16 @@
   "details": {
     "steps": [
       {
-        "title": "MongoDB Exercise 1",
         "courseData": "exercise.sh"
       }
     ],
     "assets": {
-      "client": [
+      "host01": [
         {
           "file": "events.json.gz",
           "target": "~/"
         }
       ]
-    },
-    "finish": {
-      "text": "finish.md"
     }
   },
   "environment": {
@@ -28,6 +24,6 @@
     "hidefinish": true
   },
   "backend": {
-    "imageid": "docker"
+    "imageid": "ubuntu"
   }
 }
