@@ -1,5 +1,6 @@
 #! /bin/bash
 docker run --name mng -d -v $PWD:/app mongo:4.2.6-bionic
-gunzip events.json.gz
+wget "https://github.com/ziad-saab/scenarios/raw/master/sqlndc2/assets/events.json.gz"
+gunzip events.json
 docker exec -i mng mongoimport --jsonArray /app/events.json
 docker exec -it mng mongo

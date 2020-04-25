@@ -6,21 +6,9 @@
   "details": {
     "steps": [
       {
-        "courseData": "exercise.sh"
+        "code": "exercise.sh"
       }
-    ],
-    "assets": {
-      "host01": [
-        {
-          "file": "events.json.gz",
-          "target": "~/"
-        },
-        {
-          "file": "test.txt",
-          "target": "~/"
-        }
-      ]
-    }
+    ]
   },
   "environment": {
     "uilayout": "terminal",
