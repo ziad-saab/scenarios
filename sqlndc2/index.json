@@ -1,13 +1,15 @@
 {
-  "title": "MongoDB Exercise",
+  "title": "MongoDB Exercise 1",
   "description": "",
   "difficulty": "Beginner",
   "time": "30 minutes",
   "details": {
-    "intro": {
-      "text": "intro.md",
-      "courseData": "exercise.sh"
-    },
+    "steps": [
+      {
+        "title": "MongoDB Exercise 1",
+        "courseData": "exercise.sh"
+      }
+    ],
     "assets": {
       "client": [
         {
