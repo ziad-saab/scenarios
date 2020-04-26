@@ -23,7 +23,8 @@
   "environment": {
     "uilayout": "terminal",
     "hideintro": true,
-    "hidefinish": true
+    "hidefinish": true,
+    "showdashboard": false
   },
   "backend": {
     "imageid": "ubuntu"
