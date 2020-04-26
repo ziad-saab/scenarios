@@ -8,16 +8,6 @@
       {
         "code": "exercise.sh"
       }
-    ],
-    "assets": [
-      {
-        "host01": [
-          {
-            "file": "mongo.sh",
-            "target": "~/"
-          }
-        ]
-      }
     ]
   },
   "environment": {
