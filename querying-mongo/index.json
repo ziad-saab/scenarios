@@ -8,16 +8,6 @@
       {
         "code": "exercise.sh"
       }
-    ],
-    "assets": [
-      {
-        "client": [
-          {
-            "file": "mongo.sh",
-            "target": "/root"
-          }
-        ]
-      }
     ]
   },
   "environment": {
