@@ -1,0 +1,14 @@
+HINCRBY ids users 1
+HMSET users:1 name "first user"
+HINCRBY ids users 1
+HMSET users:2 name "second user"
+HINCRBY ids users 1
+HMSET users:3 name "some user"
+
+HINCRBY ids books 1
+HMSET books:1 title 1984 release_year 1949 author "George Orwell"
+HINCRBY ids books 1
+HMSET books:2 title "Animal Farm" release_year 1945 author "George Orwell"
+HINCRBY ids books 1
+HMSET books:3 title "Brave New World" release_year 1932 author "Aldous Huxley"
+DEL books:3

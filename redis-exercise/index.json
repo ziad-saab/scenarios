@@ -1,0 +1,22 @@
+{
+  "title": "Redis Exercise",
+  "description": "",
+  "difficulty": "Beginner",
+  "time": "30 minutes",
+  "details": {
+    "steps": [
+      {
+        "code": "exercise.sh"
+      }
+    ]
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "hideintro": true,
+    "hidefinish": true,
+    "showdashboard": false
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
